@@ -1,0 +1,37 @@
+$blue-color: #152da8;
+$white-color: #fff;
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid $blue-color;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: $white-color;
+    margin: 10px;
+}
+
+.percentage {
+    font-size: 24px;
+    font-weight: bold;
+    color: $blue-color;
+}
+
+.savings-type {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.row.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.margin-top {
+    margin-top: 65px;
+}

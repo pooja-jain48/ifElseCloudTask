@@ -1,0 +1,11 @@
+<div class="cards-container" [hidden]="!topCardList">
+    <div class="card" *ngFor="let card of topCardList">
+        <div class="icon-container">
+            <i class="fa fa-car"></i>
+        </div>
+        <div class="content">
+            <div class="percentage">{{card?.value}}%</div>
+            <div class="savings-type">{{card?.header}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+
+$white-color: #fff;
+
+.bordered-container {
+    width: 450px; 
+    height: 400px; 
+    border: 1px solid $white-color;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto; 
+}
+
+span.name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+span.city {
+    font-size: 10px;
+}
+
+.progress.mt-1.mb-0 {
+    height: 6px;
+}
+
+span.badge.bg-success.rounded-circle {
+    font-size: 4px !important;
+}
+
